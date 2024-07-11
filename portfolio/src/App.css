@@ -18,6 +18,18 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+
+.carousel {
+  width: 80%;
+  margin: auto;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
