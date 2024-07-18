@@ -1,0 +1,131 @@
+/* CustomNavbar.css
+:root {
+    --primary-color: lightblue;
+    --border-color: white;
+    --text-color: black;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .navbar__brand a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .navbar__toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar__link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar__link:hover {
+    background-color: var(--border-color);
+    color: var(--primary-color);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar__toggle {
+      display: block;
+    }
+  
+    .navbar__menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: var(--primary-color);
+      padding: 1rem 0;
+    }
+  
+    .navbar__menu.open {
+      display: flex;
+    }
+  
+    .navbar__link {
+      padding: 1rem;
+      text-align: center;
+    }
+  } */
+
+  /* html {
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+  } */
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    
+    
+  }
+  
+  /* Container styles */
+  .container-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navigation item styles */
+  .navigation-item {
+    color: #333;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .navigation-item:hover {
+    color: #007BFF;
+  }
+  
